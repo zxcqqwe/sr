@@ -226,7 +226,7 @@ EOF
 go mod init network-monitor || true
 go get github.com/google/gopacket
 go get github.com/fsnotify/fsnotify
-go get gopkg.in/tail.v1
+go get github.com/hpcloud/tail
 go get github.com/go-telegram-bot-api/telegram-bot-api/v5
 go get github.com/joho/godotenv
 go get github.com/joeguo/oui
